@@ -12,6 +12,7 @@ function loadShow() {
 	items[active].style.filter = "none";
 	items[active].style.opacity = 1;
 	items[active].style.boxShadow = "0px 0px 5px skyblue";
+	items[active].style.cursor = "pointer";
 
 	for (var i = active + 1; i < items.length; i++) {
 		stt++;
